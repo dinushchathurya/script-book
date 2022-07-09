@@ -11,7 +11,7 @@ Step 2:
 
 Add SSH Key to remote machine
 ```
-ssh-copy-id -i ~/.ssh/id_rsa.pub user@remote_ip
+ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@remote_ip
 ```
 
 Step 3:
