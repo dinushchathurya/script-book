@@ -63,3 +63,9 @@ ansible all -m shell -a 'cat /etc/passwd | grep <user-name>'
 ```
 ansible all -m user -a "name=<user-name> -b
 ```
+
+### Run playbook
+
+```
+ansible-playbook <playbook-name>
+```
