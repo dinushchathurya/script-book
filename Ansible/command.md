@@ -31,3 +31,9 @@ ansible all -m setup
 ```
 ansible <group> -u <user> -m yum -a "name=<package-name>" state=present -b
 ```
+
+### Remove packages on a host
+
+```
+ansible <group> -u <user> -m yum -a "name=<package-name>" state=absent -b
+```
