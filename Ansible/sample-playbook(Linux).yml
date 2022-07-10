@@ -13,3 +13,31 @@
       with_items: 
         - git 
         - nmap
+
+    - name: install java -push package to remote node (push locally downloaded java rpm)
+      copy:
+        src: /tmp/jdk-8u112-linux-x64.rpm
+        dest: /tmp/jdk-8u112-linux-x64.rpm
+      owner: ubuntu
+      group: ubuntu
+      mode: '0744'
+
+    - name: install java from copied rpm)
+      yum: name=/opt/jdk-8u112-linux-x64.rpm state=present
+
+    - name: install docker
+      yum: name= docker state=present
+
+    - name: start docker
+      service: name=docker state=started enabled=yes
+
+    - name: install maven
+      get_url:
+        url: http://apache.mirrors.tds.net/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+        dest: /opt/apache-maven-3.3.9-bin.tar.gz
+    
+    - name: untar maven package
+      shell: chdir=/opt creates=/opt/apache-maven-3.3.9 tar -zxf /opt/apache-maven-3.3.9-bin.tar.gz -C /opt
+
+    - name: set maven environment variables
+      shell: echo "PATH=$PATH:/opt/apache-maven-3.3.9/bin" > /etc/environment
