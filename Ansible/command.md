@@ -37,3 +37,29 @@ ansible <group> -u <user> -m yum -a "name=<package-name>" state=present -b
 ```
 ansible <group> -u <user> -m yum -a "name=<package-name>" state=absent -b
 ```
+
+### Get current user of a host
+
+```
+ansible all -m shell -a "whoami"
+
+ansible all -m shell -a "uname -a"
+```
+
+### Get current uptime of a host
+
+```
+ansible all -m shell -a "uptime"
+```
+
+### Check particular user is exists on a host
+
+```
+ansible all -m shell -a 'cat /etc/passwd | grep <user-name>'
+```
+
+### Create an user on a host
+
+```
+ansible all -m user -a "name=<user-name> -b
+```
