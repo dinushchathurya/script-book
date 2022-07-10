@@ -1,0 +1,16 @@
+---
+- name: setup application server
+  hosts: dbservers
+  become: true
+  become_method: sudo
+
+  tasks:
+    - name: install basic tools
+      become: yes
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - vim
+        - curl
+        - unzip
