@@ -19,3 +19,9 @@ ansible all -u <user-name> -m ping
 ```
 ansible <group-name> -m ping
 ```
+
+### Get properties of a host
+
+```
+ansible all -m setup
+```
