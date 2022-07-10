@@ -25,3 +25,9 @@ ansible <group-name> -m ping
 ```
 ansible all -m setup
 ```
+
+### Install packages on a host
+
+```
+ansible <group> <user> -m yum -a "name=<package-name>" state=present -b
+```
