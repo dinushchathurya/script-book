@@ -19,5 +19,25 @@ cat .ssh/id_ed25519.pub
 ```
 ssh-copy-id -i ~/<path>/<key_name> <ip of the server>
 
-ssh-copy-id -i ~/.ssh/id_ed25519.pub 172.16.250.133
+ssh-copy-id -i ~/.ssh/id_ed25519.pub 172.16.250.133 
+```
+
+### Set Passphrase
+
+```
+eval $(ssh-agent) 
+
+ps aux | grep 2362
+
+ssh-add
+```
+
+### Create Alias
+
+```
+alias ssha='eval $(ssh-agent) && ssh-add'
+
+then 
+
+ssha
 ```
