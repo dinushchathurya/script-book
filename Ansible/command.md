@@ -8,6 +8,11 @@ if ansible host file is existed in default direactory:
 ```
 ansible all -m ping
 ```
+### Get all Ansible hosts
+
+```
+ansible all --list-hosts
+```
 
 ### Ping all nodes related to particular user
 
