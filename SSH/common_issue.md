@@ -26,6 +26,10 @@ sudo systemctl restart sshd
 ls -ld ~/.ssh
 ```
 
+```
+ls -ld authorized_keys
+```
+
 ##### Give chmod permission to the directory
 
 ```
