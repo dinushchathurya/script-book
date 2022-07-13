@@ -14,6 +14,14 @@ ansible all -m ping
 ansible all --list-hosts
 ```
 
+### Gather facts about hosts
+
+```
+ansible all -m gather_facts
+
+ansible all -m gather_facts --limit <ip address>
+```
+
 ### Ping all nodes related to a particular ssh key
 
 ```
