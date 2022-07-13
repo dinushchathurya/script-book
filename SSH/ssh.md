@@ -22,6 +22,12 @@ ssh-copy-id -i ~/<path>/<key_name> <ip of the server>
 ssh-copy-id -i ~/.ssh/id_ed25519.pub 172.16.250.133 
 ```
 
+### SSH to remote server using specific SSH Key
+
+```
+ssh -i ~/.ssh/<key> <ip of the remote server>
+```
+
 ### Set Passphrase
 
 ```
