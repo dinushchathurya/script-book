@@ -14,6 +14,12 @@ ansible all -m ping
 ansible all --list-hosts
 ```
 
+### Ping all nodes related to a particular ssh key
+
+```
+ansible all -i <path to host file> -m ping --key-file ~/.ssh/<key>
+```
+
 ### Ping all nodes related to particular user
 
 ```
