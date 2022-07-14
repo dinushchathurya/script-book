@@ -1,0 +1,25 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: create ansible user
+      tags: always
+      user: 
+        name: ansible
+        groups: root
+
+    - name: add ssh key for ansible
+      tags: always
+      authorized_key: 
+        user: ansible
+        key: "{{ lookup('file', '~/.ssh/ansible.pub') }}"
+    
+    - name: add suority group to ansible
+      tags: always
+      copy: 
+        src: suoder_ansible
+        dest: /etc/sudoers.d/ansible
+        owner: root
+        group: root
+        mode: 0440
+    
