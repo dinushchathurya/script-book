@@ -1,5 +1,5 @@
 ### SSH using created user
 
 ```
-ssh -i ~/.ssh/<key> <created_user>@<host>
+ssh -i ~/.ssh/<private key> <created_user>@<host>
 ```

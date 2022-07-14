@@ -10,7 +10,7 @@
 
     - name: add ssh key for ansible
       tags: always
-      authorized_keys: 
+      authorized_key: 
         user: ansible
         key: "{{ lookup('file', '~/.ssh/ansible.pub') }}"
     
