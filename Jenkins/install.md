@@ -16,15 +16,30 @@ sudo apt install openjdk-11-jdk
 java -version
 ```
 
-### Installing Jenkins
+### Add Repository key to the system
 
 ```
 wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 ```
-### Add Jenkins Repository to system
+### Append debian package repo address to the system
 
 ```
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+
+echo deb http://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+```
+
+### Update Ubuntu package
+
+```
+sudo apt update
+```
+
+### Install Jenkins
+
+```
+sudo apt install jenkins -y
 ```
 
 ### Check Jenkins Server Status
