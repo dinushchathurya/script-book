@@ -88,3 +88,49 @@ ansible all -m user -a "name=<user-name> -b
 ```
 ansible-playbook <playbook-name>
 ```
+
+### Get all tasks of a playbook
+
+```
+ansible-playbook -i <inventory> <playbook-name> --list-tasks
+```
+
+### Get all tags of a playbook
+
+```
+ansible-playbook -i <inventory> <playbook-name> --list-tags
+```
+
+### Executing Tasks by Tag
+
+```
+ansible-playbook -i <inventory> <playbook-name> --tags=setup
+```
+
+### Skipping Tasks by Tag
+
+```
+ansible-playbook -i <inventory> <playbook-name> --exclude-tags=setup
+```
+
+### Starting Execution at Specific Task
+
+```
+ansible-playbook -i <inventory> <playbook-name> --start-at-task=<task name>
+```
+
+### Limiting Targets for Execution
+
+Many playbooks set up their target as `all` by default, and sometimes you want to limit the group or single server that should be the target for that setup. You can use `-l` (limit) to set up the target group or server in that play:
+
+```
+ansible-playbook -l dev -i <inventory> <playbook-name>
+```
+
+### Controlling Output Verbosity
+
+```
+ansible-playbook -i <inventory> <playbook-name> -v
+
+ansible-playbook -i <inventory> <playbook-name> -vvvv
+```
