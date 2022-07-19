@@ -87,6 +87,8 @@ ansible all -m user -a "name=<user-name> -b
 
 ```
 ansible-playbook <playbook-name>
+
+ansible-playbook <playbook-name> --private-key=~/.ssh/<key name>
 ```
 
 ### Get all tasks of a playbook
