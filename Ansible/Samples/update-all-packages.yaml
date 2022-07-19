@@ -1,0 +1,4 @@
+- name: Update system packages
+  package:
+    state: latest
+    name: "*"
