@@ -10,6 +10,12 @@ aws configure
 setx AWS_PROFILE Kubernetes
 ```
 
+### Get all user profiles
+
+```
+aws configure list-profiles
+```
+
 ### Get Current AWS Profile
 
 ```
