@@ -1,3 +1,11 @@
+### Create New Directory
+
+```
+mkdir directory-name
+
+mkdir -p directory-name # create directory and all parent directories
+```
+
 ### Remove Empty Directory
 
 ```
