@@ -18,6 +18,12 @@ eksctl create cluster --name <cluster-name> --region <region-code> --fargate
 eksctl create cluster --name <cluster-name> --region <region-code> --nodegroup-name <node-name> --node-type t3.small --managed --nodes 2
 ```
 
+### List all cluster related to particular region
+
+```
+aws eks list-clusters --region=<region_code>
+```
+
 ### Delete Cluster
 
 ```
