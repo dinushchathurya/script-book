@@ -13,3 +13,17 @@ df (kilobytes)
 ```
 uname -a
 ```
+
+### History of commands
+
+```
+history
+```
+
+### Get command manual
+
+```
+man <command>
+
+man man
+```
