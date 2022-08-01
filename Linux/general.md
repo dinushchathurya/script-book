@@ -7,3 +7,9 @@ df -m (megabyte)
 
 df (kilobytes)
 ```
+
+### Print system details
+
+```
+uname -a
+```
