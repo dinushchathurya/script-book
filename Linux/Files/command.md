@@ -55,3 +55,21 @@ mv filename /path/to/destination
 ```
 grep <word> <file-name>
 ```
+
+### Get first line of a file
+
+```
+head -n 1 filename
+```
+
+### Get last line of a file
+
+```
+tail -n 1 filename
+```
+
+### Short for differences between two files
+
+```
+diff filename1 filename2
+```
