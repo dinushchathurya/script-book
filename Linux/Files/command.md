@@ -49,3 +49,9 @@ cp filename /path/to/destination
 ```
 mv filename /path/to/destination
 ```
+
+### Search within a file
+
+```
+grep <word> <file-name>
+```
