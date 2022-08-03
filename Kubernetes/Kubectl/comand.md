@@ -45,3 +45,11 @@ kubectl exec -it <pod-name>  -- /bin/bash
 ```
 kubectl describe pod <pod-name>
 ```
+
+## Configuration file
+
+### Apply a configuration file
+
+```
+kubectl apply -f <configuration-file-name>
+```
