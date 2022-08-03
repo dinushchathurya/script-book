@@ -39,3 +39,9 @@ kubectl logs <pod-name>
 ```
 kubectl exec -it <pod-name>  -- /bin/bash
 ```
+
+### Get pod details
+
+```
+kubectl describe pod <pod-name>
+```
