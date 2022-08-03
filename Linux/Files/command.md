@@ -73,3 +73,9 @@ tail -n 1 filename
 ```
 diff filename1 filename2
 ```
+
+### Add a line to a file
+
+```
+echo "line to add" >> filename
+```
