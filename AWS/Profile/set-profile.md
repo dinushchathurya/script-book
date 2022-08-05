@@ -7,7 +7,7 @@ aws configure
 ### Set AWS Profile
 
 ```
-setx AWS_PROFILE Kubernetes
+setx AWS_PROFILE <profile-name>
 ```
 
 ### Get all user profiles
