@@ -39,4 +39,8 @@ Avaliabilty Zone One
 
 Avaliability Zone Two
 10.0.10.0/24
+10.0.11.0/24
+
+Avaliability Zone Two
 10.0.20.0/24
+10.0.21.0/24
