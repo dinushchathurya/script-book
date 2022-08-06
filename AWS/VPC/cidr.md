@@ -33,5 +33,10 @@ VPC CIDR:
 
 Subnet CIDR:
 
+Avaliabilty Zone One
 10.0.0.0/24
 10.0.1.0/24
+
+Avaliability Zone Two
+10.0.10.0/24
+10.0.20.0/24
