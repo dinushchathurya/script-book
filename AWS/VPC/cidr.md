@@ -23,3 +23,20 @@ Network->[x.x.x].x/24<-prefix(calculate network>)
 2 ^{8}
 256
 ```
+
+### Example
+
+```
+VPC CIDR:
+
+10.0.0.0/16
+
+Subnet CIDR:
+
+Avaliabilty Zone One
+10.0.0.0/24
+10.0.1.0/24
+
+Avaliability Zone Two
+10.0.10.0/24
+10.0.20.0/24
