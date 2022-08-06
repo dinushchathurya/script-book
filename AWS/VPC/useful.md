@@ -1,6 +1,8 @@
-## Route Table (Public Subnet)
+### Internet Gateway
 
 Allow talk to internet via Internet Gateway
+
+### Route Table (Public Subnet)
 
 | Destination   | Target             |
 | ------------- |:------------------:|
