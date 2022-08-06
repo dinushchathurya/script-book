@@ -13,6 +13,9 @@ Allow talk to internet via Internet Gateway
 
 NAT Gateway is located in Public subnet.
 
+<li>Need to attach Elastic IP</li>
+<li>Need to update Route Table</li>
+
 #### Route Table (Private Subnet)
 
 
