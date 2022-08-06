@@ -2,7 +2,7 @@
 
 <li>Maximum / 16 (65536 IPS)</li>
 <li>Minimum /28  (16 IPS)</li>
-<li>VPC private CIDR IP range</li>
+<li>VPC private CIDR IP range (IRC 1918)</li>
 <br>
     <ol>1.  10.0.0.0 - 10.255.255.255 (10/8 prefix)</ol>
     <ol>2.  0172.16.0.0 - 172.31.255.255 (172.16/12 prefix)</ol>
