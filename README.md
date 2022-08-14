@@ -4,6 +4,10 @@
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/SSH/SSH-agent-forawarding.md">SSH Agent forwarding</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/SSH/common_issue.md">Fix common issues</a></li>
 
+### Nexus
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Nexus/install.md">Install Nexus on Ubuntu</a></li>
+
 ### Scripts
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/development/Scripts/push-docker-image-to-nexus.md">Push Docker image to Nexus private Docker repository using Jenkins</a></li>
