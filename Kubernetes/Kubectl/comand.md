@@ -53,3 +53,16 @@ kubectl describe pod <pod-name>
 ```
 kubectl apply -f <configuration-file-name>
 ```
+
+### Get current context
+
+```
+kubectl config get-contexts
+```
+
+### To switch to a different context,
+
+```
+kubectl config use-context <context-name>
+```
+```
