@@ -7,6 +7,10 @@ aws configure
 ### Set AWS Profile
 
 ```
+Linux:
+export AWS_PROFILE=<profile-name>
+
+Windows
 setx AWS_PROFILE <profile-name>
 ```
 
