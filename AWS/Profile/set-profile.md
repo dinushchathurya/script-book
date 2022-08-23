@@ -10,15 +10,14 @@ aws configure
 Linux:
 export AWS_PROFILE=<profile-name>
 
-Windows
+Windows:
 setx AWS_PROFILE <profile-name>
 ```
 
 ### Get all user profiles
 
 ```
-Windows 
-
+Windows:
 aws configure list-profiles
 ```
 
