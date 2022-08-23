@@ -17,6 +17,8 @@ setx AWS_PROFILE <profile-name>
 ### Get all user profiles
 
 ```
+Windows 
+
 aws configure list-profiles
 ```
 
