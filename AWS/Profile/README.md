@@ -2,6 +2,8 @@
 
 ```
 aws configure
+
+aws configure --profile <profile-name>
 ```
 
 ### Set AWS Profile
@@ -25,4 +27,10 @@ aws configure list-profiles
 
 ```
 aws configure list
+```
+
+### Get details of IAM or Role used to called the operation
+
+```
+aws sts get-caller-identity
 ```
