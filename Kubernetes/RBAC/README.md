@@ -56,7 +56,7 @@ Files need to send `ca.crt`, `john.crt` and `john.key`
 1.Create `kubeconfig` file
 
 ```bash
-kubectl --kubeconfig john.kubeconfig config set-cluster kubernetes --server https://192.168.49.2:8443 --certificate-authority=ca.crt --embed-certs=true
+kubectl --kubeconfig john.kubeconfig config set-cluster kubernetes --server <server_url> --certificate-authority=ca.crt --embed-certs=true
 ```
 
 2.Add user to kubeconfig file
