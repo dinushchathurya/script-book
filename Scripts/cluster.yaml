@@ -1,0 +1,22 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: kubernetes
+  region: ap-southeast-1
+
+vpc:    
+  subnets:
+    private:
+      ap-southeast-1a: { id: "subnet-054c54ae37f763592" }
+      ap-southeast-1b: { id: "subnet-0af50eb35f57f2202" }
+
+nodeGroups:
+  - name: kubernetes-ng
+    minSize: 1
+    maxSize: 2
+    desiredCapacity: 1
+    instanceType: m5.2xlarge
+    privateNetworking: true
+    tags:
+      Name: Kubernetes-Managed-Node-Group

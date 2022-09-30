@@ -3,12 +3,11 @@ kind: ClusterConfig
 
 metadata:
   name: kubernetes-cluster
-  region: ap-southeast-1
+  region: us-west-2
 
 managedNodeGroups:
-  - name: managed-kubernetes-ng
-    amiFamily: AmazonLinux2
-    instanceType: m5.large
+  - name: managed-ng-1
     minSize: 1
-    desiredCapacity: 1
     maxSize: 2
+    desiredCapacity: 1
+    instanceType: t2.large
