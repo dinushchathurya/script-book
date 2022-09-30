@@ -1,3 +1,7 @@
+### Argo CD
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Argo%20CD/install.md">Install Argo CD</a></li>
+
 ### AWS
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/Profile/README.md">Set AWS Profile</a></li>
@@ -22,7 +26,6 @@
 
 ### Scripts
 
-<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/ArgoCD">Install Argo CD</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Kubernetes%20Dashboard">Install Kubernetes Dashboard</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/eksctl">Create Cluster using eksctl</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/development/Scripts/push-docker-image-to-nexus.md">Push Docker image to Nexus private Docker repository using Jenkins</a></li>
