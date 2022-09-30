@@ -1,0 +1,17 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: demo
+  region: us-west-1
+
+managedNodeGroups:
+  - name: demo-ng
+    instanceType: m5.large
+    minSize: 1
+    desiredCapacity: 2
+    maxSize: 3
+    privateNetworking: true
+    tags:
+      Name: Kubernetes-Managed-Node-Group
+    
