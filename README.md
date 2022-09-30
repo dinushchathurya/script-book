@@ -1,13 +1,17 @@
-### Argo CD
-
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Argo%20CD/install.md">Install Argo CD</a></li>
-
 ### AWS
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/Profile/README.md">Set AWS Profile</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/VPC/cidr.md">CIDR Calculation</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/VPC/security.md">Security</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/VPC/useful.md">IGW, Security Group</a></li>
+
+### Argo CD
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Argo%20CD/install.md">Install Argo CD</a></li>
+
+### Ansible
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Ansible/Install/install.md">Install Ansible</a></li>
 
 ### SSH
 
