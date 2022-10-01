@@ -10,7 +10,7 @@ eksctl utils associate-iam-oidc-provider --region ${AWS_REGION} --cluster ${EKS_
 aws iam create-policy --policy-name AWSLoadBalancerControllerIAMPolicy --policy-document file://iam_policy.json
 ```
 
-### Create a IAM role and ServiceAccount
+### Create an IAM role and ServiceAccount
 
 ```
 eksctl create iamserviceaccount --cluster=${EKS_CLUSTER_NAME} --namespace=kube-system --name=aws-load-balancer-controller --attach-policy-arn=arn:aws:iam::${AWS_ACCOUNT_ID}:policy/AWSLoadBalancerControllerIAMPolicy --override-existing-serviceaccounts --region ${AWS_REGION} --approve
