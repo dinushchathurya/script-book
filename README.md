@@ -9,6 +9,10 @@
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/Argo%20CD/install.md">Install Argo CD</a></li>
 
+### Git
+
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Git/Configuration">Configure username/email</a></li>
+
 ### Ansible
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/Ansible/Install/install.md">Install Ansible</a></li>
