@@ -13,7 +13,7 @@ aws iam create-policy --policy-name AWSLoadBalancerControllerIAMPolicy --policy-
 ### Create a IAM role and ServiceAccount
 
 ```
-ksctl create iamserviceaccount --cluster=${EKS_CLUSTER_NAME} --namespace=kube-system --name=aws-load-balancer-controller --attach-policy-arn=arn:aws:iam::${AWS_ACCOUNT_ID}:policy/AWSLoadBalancerControllerIAMPolicy --override-existing-serviceaccounts --region ${AWS_REGION}
+eksctl create iamserviceaccount --cluster=${EKS_CLUSTER_NAME} --namespace=kube-system --name=aws-load-balancer-controller --attach-policy-arn=arn:aws:iam::${AWS_ACCOUNT_ID}:policy/AWSLoadBalancerControllerIAMPolicy --override-existing-serviceaccounts --region ${AWS_REGION} --approve
 ```
 
 ### Install the Target Group Binding CRDs
@@ -50,6 +50,26 @@ helm upgrade --install  aws-load-balancer-controller eks/aws-load-balancer-contr
 ```
 kubectl get deployment -n kube-system aws-load-balancer-controller
 ```
+### Deploy Sample Application
+
+```
+kubectl apply -f example-ns.yaml
+
+kubectl apply -f example-deployment.yaml
+
+kubectl apply -f example-service.yaml
+
+kubectl apply -f example-ingress.yaml
+```
+### Get Ingress url
+
+```
+kubectl get ingress nginx-blue -n nginx-blue
+```
+### Troubleshooting
+
+Refer this link <a href="https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/">for triubleshooting</a>
+
 
 
 
