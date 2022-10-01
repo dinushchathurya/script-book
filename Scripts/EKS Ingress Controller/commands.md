@@ -4,7 +4,7 @@
 eksctl utils associate-iam-oidc-provider --region ${AWS_REGION} --cluster ${EKS_CLUSTER_NAME} --approve
 ```
 
-### Create an IAM policy called
+### Create an IAM policy 
 
 ```
 aws iam create-policy --policy-name AWSLoadBalancerControllerIAMPolicy --policy-document file://iam_policy.json
