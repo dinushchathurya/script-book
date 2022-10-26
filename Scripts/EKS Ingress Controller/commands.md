@@ -68,7 +68,7 @@ kubectl get ingress nginx-blue -n nginx-blue
 ```
 ### Troubleshooting
 
-Refer this link <a href="https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/">for triubleshooting</a>
+Refer this link <a href="https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/">for troubleshooting</a>
 
 
 
