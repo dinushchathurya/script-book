@@ -25,6 +25,10 @@
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/Ansible/Install/install.md">Install Ansible</a></li>
 
+### Nexus
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Nexus/install.md">Install Nexus</a></li>
+
 ### SSH
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/SSH/ssh.md">Create SSH Key, SSH to another server</a></li>
