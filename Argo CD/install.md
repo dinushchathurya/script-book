@@ -31,3 +31,13 @@ kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
 ```
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
 ```
+
+## ArgoCd CLI
+
+```
+VERSION=v2.5.5; curl -sL -o argocd https://github.com/argoproj/argo-cd/releases/download/$VERSION/argocd-linux-amd64
+chmod +x argocd
+sudo mv argocd /usr/local/bin/argocd
+```
+
+Check latest release from<a href="https://github.com/argoproj/argo-cd/releases">here</a>
