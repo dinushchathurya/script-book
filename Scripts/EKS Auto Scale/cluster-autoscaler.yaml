@@ -5,7 +5,7 @@ metadata:
   name: cluster-autoscaler
   namespace: kube-system
   annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::111526173546:role/cluster-autoscaler
+    eks.amazonaws.com/role-arn: arn:aws:iam::<aws-acoount-id>:role/<role>
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
@@ -131,9 +131,9 @@ spec:
             - --cloud-provider=aws
             - --skip-nodes-with-local-storage=false
             - --expander=least-waste
-            - --node-group-auto-discovery=asg:tag=k8s.io/cluster-autoscaler/enabled,k8s.io/cluster-autoscaler/demo # Update cluster
-            - --balance-similar-node-groups
-            - --skip-nodes-with-system-pods=false
+            - --node-group-auto-discovery=asg:tag=k8s.io/cluster-autoscaler/enabled,k8s.io/cluster-autoscaler/<your-cluster-name> # Update cluster name with you cluster name
+            - --balance-similar-node-groups ## Ensures that there is enough available computing across all availability zones
+            - --skip-nodes-with-system-pods=false ## Ensures that there are no problems with scaling to zero
           volumeMounts:
             - name: ssl-certs
               mountPath: /etc/ssl/certs/ca-certificates.crt
