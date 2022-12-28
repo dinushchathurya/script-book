@@ -12,6 +12,6 @@ managedNodeGroups:
     minSize: 1
     maxSize: 10
     privateNetworking: true
-    # tags:
-    #   k8s.io/cluster-autoscaler/enabled: "true"
-    #   k8s.io/cluster-autoscaler/demo: "owned"
+    tags:
+      k8s.io/cluster-autoscaler/enabled: "true"
+      k8s.io/cluster-autoscaler/demo: "owned"
