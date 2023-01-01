@@ -34,3 +34,9 @@ eksctl get nodegroup --cluster=<cluster-name>
 kubectl get nodes -o wide 
 ```
 
+### Get current context
+
+```
+kubectl config view --minify 
+```
+
