@@ -34,6 +34,12 @@ kubectl get deployment <deployment-name> -o yaml
 kubectl logs <pod-name>
 ```
 
+### Stream logs
+
+```
+kubectl logs -f <pod-name>
+```
+
 ### Get a terminal of running container
 
 ```
