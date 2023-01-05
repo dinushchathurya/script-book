@@ -79,3 +79,10 @@ diff filename1 filename2
 ```
 echo "line to add" >> filename
 ```
+
+### Locate and Delete a file
+
+```
+    locate foobar | xargs -ixxx rm -f 'xxx' #where foobar is the search query   
+```
+
