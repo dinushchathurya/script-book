@@ -71,4 +71,3 @@ kubectl config get-contexts
 ```
 kubectl config use-context <context-name>
 ```
-```
