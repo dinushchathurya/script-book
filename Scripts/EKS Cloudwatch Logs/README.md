@@ -40,6 +40,8 @@ kubectl apply -f  kube-manifest/configmap.yaml
 kubectl apply -f  kube-manifest/daemonset.yaml
 ```
 
+Warning: Make sure to change the region & cluster name in the daemonset.yaml file.
+
 ### Check DaemonSet status
 
 ```bash
