@@ -46,7 +46,9 @@
 
 ### Scripts
 
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Argo%20CD/RBAC">Argo CD RBAC</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Ingress%20Controller">Install EKS Ingress Controller</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Cloudwatch%20Logs">CloudWatch EKS Container Insights</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Kubernetes%20Dashboard">Install Kubernetes Dashboard</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/eksctl">Create Cluster using eksctl</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/development/Scripts/push-docker-image-to-nexus.md">Push Docker image to Nexus private Docker repository using Jenkins</a></li>
