@@ -3,57 +3,6 @@
 ```bash
 eksctl create cluster -f cluster.yaml
 ```
-
-### Create OIDC Provider
-
-```bash
-eksctl utils associate-iam-oidc-provider --cluster <cluser-name> --approve
-```
-
-### Create Service Account for Cloudwatch Logs
-
-```bash
-eksctl create iamserviceaccount --name fluentd --namespace kube-system --cluster <cluster-name> --attach-policy-arn arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy --approve --override-existing-serviceaccounts
-```
-
-### Create Cluster Role for Cloudwatch Logs
-
-```bash
-kubectl apply -f  kube-manifest/cluster-role.yaml
-```
-
-### Create Cluster Role Binding for Cloudwatch Logs
-
-```bash
-kubectl apply -f  kube-manifest/cluster-role-binding.yaml
-```
-
-### Create ConfigMap for Fluentd
-
-```bash
-kubectl apply -f  kube-manifest/configmap.yaml
-```
-
-### Create DaemonSet for Fluentd
-
-```bash
-kubectl apply -f  kube-manifest/daemonset.yaml
-```
-
-Warning: Make sure to change the region & cluster name in the daemonset.yaml file.
-
-### Check DaemonSet status
-
-```bash
-kubectl get ds -n kube-system
-```
-
-### Apply sample application
-
-```bash
-kubectl apply -f  sample-application/application.yaml
-```
-
 ### Apply IAM Policy for Fluentd
 
 Go to your Node Group Role and attach the following policy:
@@ -61,4 +10,26 @@ Go to your Node Group Role and attach the following policy:
 ```bash
 AmazonEKSWorkerNodePolicy
 ```
+
+### Deploy CloudWatch Agent and Fluentd as DaemonSets
+
+```bash
+curl -s https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-insights/latest/k8s-deployment-manifest-templates/deployment-mode/daemonset/container-insights-monitoring/quickstart/cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/<YOUR_CLUSTER_NAME>/;s/{{region_name}}/YOUR-AWS_REGION>/" | kubectl apply -f -
+```
+
+### Check DaemonSet status
+
+```bash
+kubectl get ds -n amazon-cloudwatch -o wide
+```
+
+###  Deploy sample application
+
+Deploy application that you want to deploy to EKS cluster.
+
+### Check CloudWatch Logs
+
+CloudWatch -> Insights -> Container Insights 
+
+
 
