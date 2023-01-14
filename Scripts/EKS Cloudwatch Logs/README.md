@@ -3,6 +3,13 @@
 ```bash
 eksctl create cluster -f cluster.yaml
 ```
+
+* If you want to avoid manually Associate CloudWatch Policy to EKS Worker Nodes Role which is our second step, plase use below config file.
+
+```bash
+eksctl create cluster -f cluster-with-policy.yaml
+```
+
 ### Apply IAM Policy for Fluentd
 
 Go to your Node Group Role and attach the following policy:
