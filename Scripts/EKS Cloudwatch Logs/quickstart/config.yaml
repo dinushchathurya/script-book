@@ -15,6 +15,7 @@ metadata:
   namespace: amazon-cloudwatch
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy
+    eks.amazonaws.com/role-arn: arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy
 
 
 ---
