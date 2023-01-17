@@ -21,7 +21,7 @@ CloudWatchAgentServerPolicy
 ### Deploy CloudWatch Agent and Fluentd as DaemonSets
 
 ```bash
-curl -s https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-insights/latest/k8s-deployment-manifest-templates/deployment-mode/daemonset/container-insights-monitoring/quickstart/cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/<YOUR_CLUSTER_NAME>/;s/{{region_name}}/YOUR-AWS_REGION>/" | kubectl apply -f -
+curl -s https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-insights/latest/k8s-deployment-manifest-templates/deployment-mode/daemonset/container-insights-monitoring/quickstart/cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/<YOUR_CLUSTER_NAME>/;s/{{region_name}}/<YOUR-AWS_REGION>/" | kubectl apply -f -
 ```
 
 ### Check DaemonSet status
@@ -42,7 +42,7 @@ CloudWatch -> Insights -> Container Insights
 ### Clean up Container Insights
 
 ```bash
-curl https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-insights/latest/k8s-deployment-manifest-templates/deployment-mode/daemonset/container-insights-monitoring/quickstart/cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/cluster-name/;s/{{region_name}}/cluster-region/" | kubectl delete -f -
+curl -s https://raw.githubusercontent.com/aws-samples/amazon-cloudwatch-container-insights/latest/k8s-deployment-manifest-templates/deployment-mode/daemonset/container-insights-monitoring/quickstart/cwagent-fluentd-quickstart.yaml | sed "s/{{cluster_name}}/<YOUR_CLUSTER_NAME>/;s/{{region_name}}/<YOUR-AWS_REGION>/" | kubectl delete -f -
 ```
 
 
