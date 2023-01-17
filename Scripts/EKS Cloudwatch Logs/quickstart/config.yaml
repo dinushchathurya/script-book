@@ -13,11 +13,7 @@ kind: ServiceAccount
 metadata:
   name: cloudwatch-agent
   namespace: amazon-cloudwatch
-  annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy
-    eks.amazonaws.com/role-arn: arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy
-
-
+  
 ---
 kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1
