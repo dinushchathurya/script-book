@@ -15,7 +15,7 @@ eksctl create cluster -f cluster-with-policy.yaml
 Go to your Node Group Role and attach the following policy:
 
 ```bash
-AmazonEKSWorkerNodePolicy
+CloudWatchAgentServerPolicy
 ```
 
 ### Deploy CloudWatch Agent and Fluentd as DaemonSets
