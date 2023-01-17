@@ -13,8 +13,6 @@ kind: ServiceAccount
 metadata:
   name: cloudwatch-agent
   namespace: amazon-cloudwatch
-  annotations:
-    eks.amazonaws.com/role-arn: arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy
 ---
 
 kind: ClusterRole
