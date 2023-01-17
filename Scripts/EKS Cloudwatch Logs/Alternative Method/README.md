@@ -50,9 +50,7 @@ kubectl get ds -n kube-system
 
 ### Apply sample application
 
-```bash
-kubectl apply -f  sample-application/application.yaml
-```
+Deploy application that you want to deploy to EKS cluster.
 
 ### Apply IAM Policy for Fluentd
 
