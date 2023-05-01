@@ -1,0 +1,27 @@
+config:
+  existingSecret: oauth2-proxy-creds-github
+
+extraArgs:
+  whitelist-domain: .<your domian> ## This is the domain that the proxy will allow to access the dashboard
+  cookie-domain: .<your domian> ## This is the domain that the proxy will allow to access the dashboard
+  provider: github
+  email-domain: '*' ## Email domain that will be allowed to access the dashboard
+  redirect-url: https://<your-proxy-domain>/oauth2/callback ## This is the domain that the proxy will redirect to after authentication
+  upstream: "file:///dev/null"
+  scope: user:email ## This is the scope that the proxy will request from the provider
+  cookie-expire: "1h" ## This is the time that the cookie will expire
+  cookie-refresh: "30m" ## This is the time that the cookie will refresh
+  
+
+ingress:
+  enabled: true
+  path: /
+  hosts:
+    - oauth.devninja-test.online
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+  tls:
+    - hosts:
+        - oauth.devninja-test.online
+      secretName: oauth-tls
