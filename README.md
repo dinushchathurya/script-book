@@ -60,7 +60,7 @@
 Argocd
 
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Argo%20CD/RBAC">Argo CD RBAC</a></li>
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Argo%20CD/service.yaml">Service to setup ALB for ArogCD</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Argo%20CD/service.yaml">Service Patch to setup ALB for ArogCD</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Argo%20CD/ingress.yaml">Ingress to expose ArogCD using ALB</a></li>
 </ol>
 
@@ -76,9 +76,53 @@ AWS EKS Auto Scaling
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Auto%20Scale">Set Up Cluster AutoScaler</a></li>
 </ol>
 
-<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Ingress%20Controller">Install EKS Ingress Controller</a></li>
+<ol>
+Set Up CLoudWatch Container Insights for EKS
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Cloudwatch%20Logs">CloudWatch EKS Container Insights</a></li>
+</ol>
+
+<ol>
+AWS ALB Ingress Controller
+
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Ingress%20Controller">Install EKS Ingress Controller</a></li>
+</ol>
+
+<ol>
+Jenkins
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Jenkins/echo-aws-credentials.md">Print AWS Credentials</a></li>
+</ol>
+
+<ol>
+Install Keycloak on EKS
+
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Keycloak">Install Keycloak on EKS</a></li>
+</ol>
+
+<ol>
+Kubernetes Dashboard
+
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Kubernetes%20Dashboard">Install Kubernetes Dashboard</a></li>
+</ol>
+
+<ol>
+Install Nginx Ingress Controller on EKS
+
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Nginx%20Ingress"></a>Install Nginx Ingress Controller on EKS</a></li>
+</ol>
+
+<ol>
+Python
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Python/pip_upgrade_all.md"></a>Useful Python Commands</a></li>
+</ol>
+
+<ol>
+Tekton Dashboard Authentication
+
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Tekton/Dashbaord%20Auth"></a>Tekton Dashboard Authentication</a></li>
+</ol>
+
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/eksctl">Create Cluster using eksctl</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/development/Scripts/push-docker-image-to-nexus.md">Push Docker image to Nexus private Docker repository using Jenkins</a></li>
 
