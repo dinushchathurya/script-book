@@ -21,28 +21,25 @@
 
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Git/Configuration">Configure username/email</a></li>
 
-### Ansible
+### Jenkins
 
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Ansible/Install/install.md">Install Ansible</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Jenkins/install.md">Install Jenkins on Ubuntu</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Jenkins/setup-jenkins-slaves.md">Setup Jenkins Slave node</a></li>
+
+### Kubernetes
+
+### Linux
 
 ### Nexus
 
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Nexus/install.md">Install Nexus</a></li>
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Nexus/install.md">Install Nexus on Ubuntu</a></li>
 
 ### SSH
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/SSH/ssh.md">Create SSH Key, SSH to another server</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/SSH/SSH-agent-forawarding.md">SSH Agent forwarding</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/SSH/common_issue.md">Fix common issues</a></li>
-
-### Jenkins
-
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Jenkins/install.md">Install Jenkins on Ubuntu</a></li>
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Jenkins/setup-jenkins-slaves.md">Setup Jenkins Slave node</a></li>
-
-### Nexus
-
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Nexus/install.md">Install Nexus on Ubuntu</a></li>
 
 ### Scripts
 
