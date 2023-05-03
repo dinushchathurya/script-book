@@ -108,19 +108,19 @@ Kubernetes Dashboard
 <ol>
 Install Nginx Ingress Controller on EKS
 
-<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Nginx%20Ingress"></a>Install Nginx Ingress Controller on EKS</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Nginx%20Ingress">Install Nginx Ingress Controller on EKS</a></a></li>
 </ol>
 
 <ol>
 Python
 
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Python/pip_upgrade_all.md"></a>Useful Python Commands</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Python/pip_upgrade_all.md">Useful Python Commands</a></a></li>
 </ol>
 
 <ol>
 Tekton Dashboard Authentication
 
-<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Tekton/Dashbaord%20Auth"></a>Tekton Dashboard Authentication</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Tekton/Dashbaord%20Auth">Tekton Dashboard Authentication</a></a></li>
 </ol>
 
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/eksctl">Create Cluster using eksctl</a></li>
