@@ -4,10 +4,17 @@
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/VPC/cidr.md">CIDR Calculation</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/VPC/security.md">Security</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/VPC/useful.md">IGW, Security Group</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/AWS/CLI/README.md">AWS CLI</a></li>
 
 ### Ansible
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/Ansible/Install/install.md">Install Ansible</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Ansible/Commands/command.md">Useful Ansible Commands</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Ansible/Connect/connect.md">Connect Ansible Node</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Ansible/Roles">Ansible Role Management</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Ansible/User%20Management">Ansible User Management</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Ansible/Samples">Sample Ansible Playbook</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Ansible/Bootstrap">Ansible Bootstrap</a></li>
 
 ### Argo CD
 
