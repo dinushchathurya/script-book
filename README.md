@@ -19,6 +19,8 @@
 ### Argo CD
 
 <li><a href="https://github.com/dinushchathurya/script-book/blob/master/Argo%20CD/install.md">Install Argo CD</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Argo%20CD/argo-cli.md">Argo CD CLI</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Argo%20CD/install-rollout.md">Argo CD Rollout</a></li>
 
 ### Docker
 
