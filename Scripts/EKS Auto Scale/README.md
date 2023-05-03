@@ -21,3 +21,7 @@ kubectl get deployment autoscaler-demo --watch
 ```bash
 kubectl get nodes
 ```
+
+### Tutorial
+
+https://codingtricks.io/how-to-deploy-cluster-autoscaler-in-eks/

@@ -37,7 +37,11 @@
 
 ### Kubernetes
 
-### Linux
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Kubernetes/Kubectl">Kubectl</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Kubernetes/Kubectx">Kubectx</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Kubernetes/Kubens">Kubedns</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Kubernetes/Minikube">Minikube</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Kubernetes/RBAC">RBAC</a></li>
 
 ### Nexus
 
@@ -52,13 +56,32 @@
 
 ### Scripts
 
+<ol>
+Argocd
+
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Argo%20CD/RBAC">Argo CD RBAC</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Argo%20CD/service.yaml">Service to setup ALB for ArogCD</a></li>
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/Argo%20CD/ingress.yaml">Ingress to expose ArogCD using ALB</a></li>
+</ol>
+
+<ol>
+BitBucket
+
+<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/BitBucket/setup-webhook.md"> Set BitBucket Webhook for Jenkins</a></li>
+</ol>
+
+<ol>
+AWS EKS Auto Scaling
+
+<li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Auto%20Scale">Set Up Cluster AutoScaler</a></li>
+</ol>
+
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Ingress%20Controller">Install EKS Ingress Controller</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/EKS%20Cloudwatch%20Logs">CloudWatch EKS Container Insights</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/Kubernetes%20Dashboard">Install Kubernetes Dashboard</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/tree/master/Scripts/eksctl">Create Cluster using eksctl</a></li>
 <li><a href="https://github.com/dinushchathurya/script-book/blob/development/Scripts/push-docker-image-to-nexus.md">Push Docker image to Nexus private Docker repository using Jenkins</a></li>
-<li><a href="https://github.com/dinushchathurya/script-book/blob/master/Scripts/BitBucket/setup-webhook.md"> Set BitBucket Webhook for Jenkins</a></li>
+
 
 ### Troubleshooting
 
